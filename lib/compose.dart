@@ -1,4 +1,4 @@
-import 'package:fn_compose/composeFn.dart';
+import 'package:fn_compose/composefn.dart';
 
 class C<TIn> {
   final TIn input;

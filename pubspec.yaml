@@ -1,6 +1,6 @@
 name: fn_compose
 description: A typed way to compose functions in dart
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/twistedinferno/fn_compose
 author: twistedinferno <gu64rk@gmail.com>
 
