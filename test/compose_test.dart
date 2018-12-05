@@ -1,4 +1,4 @@
-import 'package:fn_compose/Compose.dart';
+import 'package:fn_compose/compose.dart';
 import 'package:test/test.dart';
 
 var addOne = (int x) => x + 1;

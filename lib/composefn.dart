@@ -1,5 +1,5 @@
 
-import 'package:fn_compose/Compose.dart';
+import 'package:fn_compose/compose.dart';
 
 class ComposeFn<TFnIn> {
   final C input;
