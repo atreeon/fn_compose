@@ -1,11 +1,15 @@
 name: fn_compose
-description: A typed way to compose functions in dart
-version: 0.0.3
+description: A typed way to compose functions in dart, this is works well when getting generic functional composition but it is born from my interest in trying to understand type safety, functional composition, dart and a little bit of fp(in dart!)
+version: 0.1.0
 homepage: https://github.com/twistedinferno/fn_compose
 author: twistedinferno <gu64rk@gmail.com>
 
 environment:
   sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  # typed_curry:
+  #  path: ../typed_curry
 
 dev_dependencies:
   test: ^1.0.0 
