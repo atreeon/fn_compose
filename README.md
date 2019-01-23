@@ -1,6 +1,6 @@
 # fn_compose
 
-Typed functional piping in Dart.
+Typed functional piping in Dart.  Please message or contact on github if you have any suggestions.  This may very well not be production ready...it might even be a bad idea!  It is really just a play thing but my intention was to model the piping functionality in Haskell.
 
 ### Examples
 ```dart
