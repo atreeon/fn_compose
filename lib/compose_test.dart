@@ -39,7 +39,7 @@ void main() {
           .x2(addTwoNumbers, 4, 5)
           .x1(addNumber, 3)
           .x0(addOne)
-          .x1(addNumber, 4)
+          .x1(addNumber, 4) //
           .$();
       expect(result, 24);
     });
@@ -70,10 +70,19 @@ void main() {
       expect(result, "6Blah");
     });
 
-    // can we do auto currying?
     test("11 with automatic currying", () {
       var result = C(5).c1(stringAndAddOne)("plip").$();
       expect(result, "6plip");
+    });
+
+    test("12 do notation???", () {
+      var b = addOne(6);
+      var c = addTwoNumbers(b, 4, 5);
+      var d = addNumber(c, 2);
+      var e = addOne(d);
+      var f = addNumber(e, d);
+
+      expect(f, 24);
     });
 
     // test("8 return function with parameter", () {
